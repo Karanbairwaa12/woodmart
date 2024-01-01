@@ -1,0 +1,19 @@
+.nav-bar {
+    font-size: 14px;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 100;
+    width:100%;
+}
+.login-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    padding:0px 10px;
+}
+
+.middle-nav{
+    flex:1 1 0%;
+}
