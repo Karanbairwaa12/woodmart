@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import React from "react";
+import { Link} from "react-router-dom";
 import { IoSearchSharp } from "react-icons/io5";
 import { FaRandom } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
@@ -7,8 +7,6 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 import "./navbar.css";
 
 const Navbar = () => {
-  // Example: If you have user authentication state in Redux
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
   return (
     <div className="h-[90px] nav-bar">
       <div className="px-[15px] mx-[15.5px] flex">
@@ -17,6 +15,7 @@ const Navbar = () => {
             <img
               src="https://woodmartcdn-cec2.kxcdn.com/accessories/wp-content/themes/woodmart/images/wood-logo-dark.svg"
               className="h-[24px]"
+              alt=""
             />
           </div>
         </div>

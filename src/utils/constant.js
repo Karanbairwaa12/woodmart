@@ -111,3 +111,34 @@ export const newArrivalsProduct = [
         price:230.00,
     }
 ]
+
+export const TypeOfItems =[
+    {
+        img:"https://woodmartcdn-cec2.kxcdn.com/accessories/wp-content/uploads/sites/7/2022/08/accessories-banner-1.jpg.webp",
+        heading:"Something completely new",
+        itemType:"Cases for Phone",
+        button:"TO SHOP",
+        grid:"col-start-1 col-span-2 bg-[gray]"
+    },
+    {
+        img:"https://woodmartcdn-cec2.kxcdn.com/accessories/wp-content/uploads/sites/7/2022/04/accessories-banner-2.jpg.webp",
+        heading:"Accessories for watch",
+        itemType:"Straps of Any Color",
+        button:"TO SHOP",
+        grid:"col-end-6 col-span-3 bg-[blue]"
+    },
+    {
+        img:"https://woodmartcdn-cec2.kxcdn.com/accessories/wp-content/uploads/sites/7/2022/04/accessories-banner-3.jpg.webp",
+        heading:"Special offer",
+        itemType:"Buy One and Get 50% Off the Second",
+        button:"READ MORE",
+        grid:"col-start-1 col-span-3 bg-[red]"
+    },
+    {
+        img:"https://woodmartcdn-cec2.kxcdn.com/accessories/wp-content/uploads/sites/7/2022/09/wood-accessories-category-4-opt.jpg.webp",
+        heading:"Try something completely",
+        itemType:"Charger Discount",
+        button:"BUY NOW",
+        grid:"col-end-6 col-span-2 bg-[yellow]"
+    }
+]
